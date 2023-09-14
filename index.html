@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi pagina web personal</h1>
+        <ul>
+            <li><a href="#acerca-de-mi">Acerca de mi</a></li>
+            <li><a href="#educacion">Educacion</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </header>
+
+    <section id="acerca-de-mi">
+        <h2>Acerca de mi</h2>
+        <p>Minombre es:  Diego Carrizo. Soy un apasionado del desarrollo web</p>
+        <img src="Ribotta1.jpg" alt="logo personal" width="200">
+    </section>
+
+    <section id="educacion">
+        <ul>
+            <li>Universidad UTN</li>
+            <li>Curso online de desarrollo web</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del poryecto</th>
+                    <th>Fecha</th>
+                    <th>Lenguaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Proyecto 1</td>
+                    <td>2022</td>
+                    <td>HTML CSS</td>
+                </tr>
+                <tr>
+                    <td>Proyecto 2</td>
+                    <td>2022</td>
+                    <td>HTML JS</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="habilidades">
+        <ul>
+            <li>HTML</li>
+            <LI>CSS</LI>
+            <LI>JavaScript</LI>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <address>
+            Correo: <a href="carrizodiego@gmail.com">Carrizo diego</a>
+            Telefono: <a href="2323433333">2323434354</a>
+        </address>
+    </section>
+
+    <section id="formulario">
+        <h2>Contáctame</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo">
+
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
